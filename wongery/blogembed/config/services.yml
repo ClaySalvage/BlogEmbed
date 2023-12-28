@@ -1,0 +1,5 @@
+services:
+  wongery.blogembed.listener:
+    class: wongery\blogembed\event\listener
+    tags:
+      - { name: event.listener }

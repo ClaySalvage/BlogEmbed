@@ -1,0 +1,36 @@
+{
+  "name": "wongery/blogembed",
+  "type": "phpbb-extension",
+  "description": "Wikitext extension for phpBB",
+  "homepage": "https://github.com/ClaySalvage/BlogEmbed",
+  "version": "0.1.0",
+  "time": "2023-12-27",
+  "keyworkds": [
+    "phpbb",
+    "extension",
+    "wongery",
+    "tag",
+    "wiki"
+  ],
+  "license": "GPL-2.0-only",
+  "authors": [
+    {
+      "name": "Clay Salvage",
+      "email": "cle@wongery.com",
+      "homepage": "https://wongery.com/m/User/Clé",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpbb/epv": "dev-master"
+  },
+  "extra": {
+    "display-name": "wongery/blogembed",
+    "soft-require": {
+      "phpbb/phpbb": "3.3.0"
+    }
+  }
+}
